@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+}
+
+#head{
+    color: #fff;
+    background-image: url(sl_122319_26350_36.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1500px;
+
+    align-items: center;
+    display: flex;
+    justify-content:space-between ;
+    padding: 3rem 8rem;
+    box-shadow: 0 0 3px;
+    
+
+}.grid{
+    padding: 3rem 5rem;
+    display: grid;
+    gap: 3rem;
+}
+
+section {
+    margin-bottom: 2rem ;
+}
+img{
+    width: 200px;
+
+}
+
+.container {
+ display: flex;
+ flex-direction: column;
+}
+a{
+    color: #fff;
+    
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="data.html">
+    <link rel="stylesheet" href="html.html">
+    <link rel="stylesheet" href="css.html">
+    <title>webbvteknik1</title>
+</head>
+
+<body>
+    <header id="head">
+        <div class="container">
+            <h1>webbteknik</h1>
+
+            <h1>uppgift1</h1>
+        </div>
+        <a href="index.html">Startsida </a>
+        <a href="data.html">datakommunikation</a>
+        <a href="html.html">html</a>
+        <a href="css.html">css</a>
+    </header>
+    <main class="grid">
+        <section>
+            <h2>
+                Vilken roll spelar DNS servern när en användare navigerar till en webbsida?
+            </h2>
+            <p>En DNS-server hjälper till att översätta en webbadress, som brfrastenenmitt.se, till en IP-adress så att datorn kan hitta rätt hemsida. Det gör att vi kan skriva enkla adresser istället för krångliga IP-nummer. DNS fungerar ungefär som en kontaktbok för internet, som snabbt hittar var webbsidan finns.</p>
+        </section>
+
+        <section>
+            <h2>
+                Beskriv kortfattat de steg som klienten och servern tillsammans går igenom när en webbsida bestående av filerna index.html, style.css och example.jpg öppnas.
+            </h2>
+            <p>När man skriver in en webbadress skickar webbläsaren en fråga till en server för att hämta sidan, ofta som en fil som heter index.html. Servern svarar med HTML-kod, och webbläsaren börjar läsa av den. Under tiden som webbläsaren läser koden, hittar den länkar till andra saker som exempelvis style.css (en fil för design) och example.jpg (en bild). Då skickar webbläsaren nya frågor till servern för att hämta dessa saker också. När allt är hämtat, visar sen webbläsaren korrekt för användern.</p>
+        </section>
+
+        <section>
+            <h2>
+                Beskriv de delar som följande url består av:
+                https://medieteknik.lnu.se:443/wt1/index.html#intro
+                Ta upp alla delar som åtskiljs av /, : och #
+            </h2>
+            <p>https:// är protokoll, och används för hämta resurser via krypterad kommunikation mellan server och klienten, vilket gör https säkrare än HTTP. 
+                medieteknik.lnu.se är domänen, domänen består av flera delar, medieteknik är subdomänen, lnu utgör huvuddomänen och .se är toppdomänen. :443 är porten som används för https trafik. /wt1/index.html är sökvägen. wt1 är en mapp. index.html är html fil. #intro är en fragment som refererar till en speecifik del av sidan med ID intro.</p>
+       
+        </section>
+
+        <img src="preview.webp" alt="">
+
+    </main>
+    <script src="getstarted.js"></script>
+</body>
+
+</html>
